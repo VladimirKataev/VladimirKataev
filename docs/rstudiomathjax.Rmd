@@ -1,0 +1,36 @@
+---
+title: "mathJaxSpeed"
+output: html_document
+date: "2023-12-17"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+$$C_{miles}(v, d) = C_{time} + C_{fuel}
+\\
+C_{miles}(v, d) = C_{hour}t(v, d) + C_{fuel}(v, d)
+\\
+C_{mile} = C_{hour}\frac{d}{v} + C_{gallon}d\frac{gallons_{0}}{mile_{0}}(\frac{v}{v_{0}})^2
+\\ at\ d = 1\ mile, t = 1\ hour
+\\
+\displaystyle C_{mile} = \frac{C_{hour}}{V} + C_{gallon}\frac{gallons_{0}}{mile_{0}}(\frac{V}{V_{0}})^2
+\\formatted\ for\ next\ step\ ease:
+\\
+\displaystyle C_{mile} = C_{hour} V^{-1} + C_{gallon}\frac{gallons_{0}}{mile_{0}\ V_{0}^{2}}V^{2}
+\\Taking\ a\ derivative\ with \ respect\ to\ V
+\\
+\frac{d}{dv} C_{mile} = -C_{hour}V^{-2} + C_{gallon}\frac{2\ gallons_{0}}{mile_{0}\ V_{0}^{2}}V
+\\Optimising\ for\ the\ derivative\ to\ be\ 0
+\\
+\frac{d}{dv} C_{mile} = -C_{hour}V^{-2} + C_{gallon}\frac{2\ gallons_{0}}{mile_{0}\ V_{0}^{2}}V = 0
+\\
+C_{gallon}\frac{2\ gallons_{0}}{mile_{0}\ v_{0}^{2}}V = C_{hour}V^{-2}
+\\
+V^{3} = \frac{C_{hour}}{C_{gallon}}\frac{mile_{0}\ v_{0}^{2}}{2\ gallons_{0}}
+\\
+V = \sqrt[3]{\frac{C_{hour}}{C_{gallon}}\frac{mile_{0}\ V_{0}^{2}}{2\ gallons_{0}}} \\
+V = \sqrt[3]{\frac{C_{hour}}{C_{gallon}}\frac{V_{test}^{2}}{2\ }*MPG_{test}}$$
