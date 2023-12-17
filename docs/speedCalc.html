@@ -17,6 +17,14 @@ function setAnswer(){
 
 }
 
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+
+
 </script>
 
   <title>Optimal Speed</title>
@@ -140,15 +148,6 @@ V = \sqrt[3]{\frac{C_{hour}}{C_{gallon}}\frac{mile_{0}\ V_{0}^{2}}{2\ gallons_{0
 
 
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 
 
 </html>
