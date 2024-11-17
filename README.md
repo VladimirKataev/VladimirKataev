@@ -1,6 +1,16 @@
 - 👋 Hi, I’m @VladimirKataev
-- 👀 I’m interested in C++, Data Science, and cars
-- 🌱 I’m currently studying Data Science at UC Riverside
+- 👀 I’m interested in:
+  - C++
+  - R
+  - Python
+  - Data Science
+  - Computers Science
+  - Planes
+  - Cars
+- 🌱 Recently graduated
+  - Bachelors of Science
+  - Data Science
+  - UC Riverside
 - 📫 How to reach me:  If you have a problem, if no one else can help, and if you can find them, maybe you can hire... Vladimir Kataev.
 - https://vladimirkataev.github.io/VladimirKataev/
 <!---
