@@ -4,7 +4,7 @@
   - R
   - Python
   - Data Science
-  - Computers Science
+  - Computer Science
   - Planes
   - Cars
 - 🌱 Recently graduated
