@@ -14,6 +14,7 @@
 - Other Qualifications:
   - Google Cloud Project: Professional Machine Learning Engineer
   - Associates of Computer Science (De Anza College)
+  - Light Sport Repairman (Can inspect and maintain LSA Aircraft)
 - 📫 How to reach me:  If you have a problem, if no one else can help, and if you can find them, maybe you can hire... Vladimir Kataev.
 - https://vladimirkataev.github.io/VladimirKataev/
 <!---
